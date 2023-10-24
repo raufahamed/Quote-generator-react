@@ -1,0 +1,76 @@
+.board{
+
+    width: 500px;
+    padding: 5rem;
+    border-radius: 15px;
+   background-color: white;
+ 
+}
+
+.loading{
+
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    color: rgb(223, 98, 98);
+}
+.quote{
+
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* color: #244c75; */
+    font-weight: 800;
+}
+
+.quoteauthor{
+
+    font-size: 1.3rem;
+    text-align: end;
+    color: #54575b;
+    font-family: cursive,monospace;
+}
+
+@media screen and (max-width: 768px) {
+    .board {
+        width: 450px; 
+        padding: 2rem; 
+    }
+
+    .quote {
+        font-size: 1.5rem; 
+    }
+
+    .quoteauthor {
+        font-size: 1rem; 
+    }
+}
+
+
+@media screen and (max-width: 660px) {
+    .board {
+        width: 300px;
+        padding: 1rem; 
+    }
+
+    .quote {
+        font-size: 1.2rem; 
+    }
+
+    .quoteauthor {
+        font-size: 0.8rem; 
+    }
+}
+@media screen and (max-width: 390px) {
+    .board {
+        width: 250px;
+        padding: .85rem; 
+    }
+
+    .quote {
+        font-size: 1rem; 
+    }
+
+    .quoteauthor {
+        font-size: 0.6rem; 
+    }
+}
